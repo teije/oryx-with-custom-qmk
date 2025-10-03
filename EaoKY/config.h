@@ -15,3 +15,6 @@
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE      // Auto-enable mouse layer on movement
 #define AUTO_MOUSE_TIME 280                    // Keep it for 280 ms after use
 #define POINTING_DEVICE_GESTURES_SCROLL_ENABLE // Enable scroll gestures (if supported)
+
+#define POINTING_DEVICE_TASK_THROTTLE_MS 1     // Max polling rate (1 kHz)
+#define USB_POLLING_INTERVAL_MS 1              // Optional: higher USB polling
