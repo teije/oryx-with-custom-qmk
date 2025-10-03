@@ -8,3 +8,10 @@
 
 #define RGB_MATRIX_STARTUP_SPD 60
 
+// --- Pointing device / Cirque ---
+#define CIRQUE_PINNACLE_TAP_ENABLE             // Tap-to-click on Cirque Pinnacle
+#define POINTING_DEVICE_ROTATION_90            // Rotate X/Y data by 90°
+#define MOUSE_EXTENDED_REPORT                  // Extended mouse report (-32767..32767)
+#define POINTING_DEVICE_AUTO_MOUSE_ENABLE      // Auto-enable mouse layer on movement
+#define AUTO_MOUSE_TIME 280                    // Keep it for 280 ms after use
+#define POINTING_DEVICE_GESTURES_SCROLL_ENABLE // Enable scroll gestures (if supported)
